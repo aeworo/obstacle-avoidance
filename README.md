@@ -1,7 +1,9 @@
 En esta práctica tendremos que recorrer un circuito mediante subobjetivos y sorteando los obstáculos mediante fuerzas virtuales VFF. Esas fuerzas son tres, las actractivas que son generadas por los subobjetivos, las repulsivas que son generadas por los obstáculos y la total que es la suma de ambas.
 
+**1. Percepción**
 En esta práctica no se van a usar filtros de imagen como en las anteriores, no hacen falta. Se van a usar los datos proporcionados por el sensor láser.
 
+**2. Algoritmo**
 El primer paso es sacar la coordenadas de los subobjetivos y a medida que vayamos superandolos, los marcaremos como superados.
 A continuación sacamos la posición (coordenadas) de nuestro robot, las cuales convertiremos a relativas ya que nos la devuelven en absolutas.
 
